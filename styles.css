@@ -1,0 +1,11 @@
+#cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    cursor: move;
+}
+
+#cuadro:focus {
+    outline: none; /* Para ocultar el contorno de enfoque */
+}
