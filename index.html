@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="/function.js">
     <link href="/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuadro con Cambio de Radio de Borde</title>
 </head>
+<style>
+    #cuadro {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        cursor: move;
+    }
+    
+    #cuadro:focus {
+        outline: none; /* Para ocultar el contorno de enfoque */
+    }
+</style>
 <body>
     <div id="cuadro" tabindex="0"></div>
+    <script src="/function.js"></script>
 </body>
 </html>
